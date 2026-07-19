@@ -286,3 +286,24 @@ header {
     border:none;
 }
 
+.footer-container{
+    background-color: #0D1B2A;
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.footer-content p{
+    color: #575757;
+}
+.footer-content ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+}
+.footer-content ul li{
+    list-style: none;
+    color: #575757;
+}
