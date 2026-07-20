@@ -307,3 +307,83 @@ header {
     list-style: none;
     color: #575757;
 }
+
+/* hackathon section start here */
+
+.hackathon{
+    padding-bottom:60px;
+    text-align:center;
+}
+
+.section-heading{
+    max-width:700px;
+    margin:0 auto 60px;
+}
+
+.section-heading h2{
+    font-size:42px;
+    color:#111827;
+    margin-bottom:18px;
+}
+
+.section-heading p{
+    color:#6b7280;
+    line-height:1.8;
+}
+
+.hackathon-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:25px;
+    margin-bottom:50px;
+}
+
+.hack-card{
+    background:#ffffff;
+    border:1px solid #e5e7eb;
+    border-radius:18px;
+    padding:35px 25px;
+    transition:0.35s ease;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+}
+
+.hack-card:hover{
+    transform:translateY(-8px);
+    border-color:#2563eb;
+    box-shadow:0 20px 40px rgba(37,99,235,0.15);
+}
+
+.hack-card span{
+    font-size:42px;
+    display:block;
+    margin-bottom:18px;
+}
+
+.hack-card h3{
+    font-size:22px;
+    color:#111827;
+    margin-bottom:10px;
+}
+
+.hack-card p{
+    color:#6b7280;
+    line-height:1.7;
+}
+
+.hack-btn{
+    display:inline-block;
+    padding:16px 38px;
+    background:#2563eb;
+    color:#fff;
+    text-decoration:none;
+    border-radius:12px;
+    font-weight:600;
+    transition:0.3s ease;
+    box-shadow:0 10px 25px rgba(37,99,235,0.25);
+}
+
+.hack-btn:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+    box-shadow:0 15px 35px rgba(37,99,235,0.35);
+}
